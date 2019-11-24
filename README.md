@@ -1,33 +1,33 @@
-# Hackathon-TI
+# Case de Avaliação Hackathon-TI - Qualidade
 
-## App de Mobilidade Urbana
-## Premissa
-Um Cliente solicita uma corrida, onde e informado do preço e dados do motorista.
-What- Um app que leva o passageiro do ponto de origem ao ponto de destino.
-When- Quando o passageiro precisar.
-Who- O passageiro
-Where- Do ponto de origem ao destino.
-Why- Porque o passageiro precisa ir da origem ao destino.
-How- Linka o passageiro a um motorista.
+## O Desafio
+Criar um processo para garantia da qualidade em empresa de software
+### O problema
+A empresa XY Sistemas desenvolve sistemas de gestão integrada (ERPs). Nos últimos 5 anos, as equipe de desenvolvimento passo de 4 para 45 pessoas e a carteira de clientes passou de 2 para 125 empresas. Atualmente, o ERP desenvolvido roda o banco de dados MSSQL Server e servidor de aplicações Apache Tomcat 8.5, onde estão hospedados tanto os webservices quanto os componentes da lógica do sistema. A camada de apresentação foi construída com HTML e JQuery. Ocorre que o número de falhas no software vem aumentando e está causando impacto e insatisfação junto aos clientes. Inclusive, alguns contratos já foram rescindidos. Sua missão é criar um processo de garantia da qualidade, com o objetivo de reverter a situação atual, buscando maior qualidade e, consequentemente, satisfação junto aos clientes da XY Sistemas.
+### Os requisitos
+Crie os processos e os documente, justificando a importância de cada atividade.
+Determine as tecnologias, sistemas, softwares e quaisquer elementos que considere importantes para o processo de garantia da qualidade na XY Sistemas.
+Determine os papéis a serem desempenhados para o processo que você está propondo.
+Todas as suas decisões e escolhas devem ser justificadas na documentação do projeto
+Todos os artefatos desenvolvidos devem ser disponibilizados para análise técnica
 
-## Aquitetura do processo
-Os usuarios administradores definem as regras dos chamados dos passageiros e repassa para os motorista, juntamente com valores, dados do motorista e ETA.
-Armazenam as regras em um servidor que recebera tais solicitações e manejar tais pedidos aos motoristas.
 
-## Problema
-A empresa esta perdendo clientes.
-Para evitar a evasão dos clientes sera usado diferentes métodos e ferramentas para avaliar a funcionalidade do Sistema.
-Usaremos dois métodos diferentes para testar o funcionamento do servico.
+## A Solução Proposta
 
-## Método
-Sera utilizado o método PDCA, (Planejamento, Desenvolvimento, Checagem e Ação) visando checar desde o início do processo até o final do mesmo, juntamente com os testes de unidade TDD (Desenvolvimento orientado a testes) e BDD (Desenvolvimento orientado a Comportamento), os quais servem para validar o funcionamento das menores unidades do código do Sistema e por fim o Ágil.
+### Premissas
+A XY sistemas desenvolve ERPs
+A XY sistemas trabalha em formato Ágil (SCRUM)
+Workflow de um desenvolvimento: TO DO > IN DEV > IN TEST > DONE
 
-## Ferramentas
-Google Docs: por sua eficácia em fazer alterações simultâneas em uma única plataforma, dessa forma melhorando a comunicação com todos os times.
-Postman: para poder testar as APIs e WebServices
-Python: pytest e dostring, que permitirão testes unitários automatizados, testando a lógica do Sistema.
+### Processos
+#### Monitoria de Infra
+Adicionar as seguintes monitorias de disponibilidade de infra:
+Disponibilidade do servidor Apache Tomcat: pings a cada 10s no endereço da aplicação
+Disponibilidade do servidor MSSQL Server: query simples submetida a cada 10s.
 
-## Processos
-Desenvolvimento Ágil
-Planejamento ? Sprint (2 semanas) ? Dailies ? Revisão ? Retrospectiva.
-O proprietário do produto tem a visão do produto e traz requisites baseados no negócio e qualidade ? Desenvolvedores estimam a complexidade do trabalho e deliimitam o tempo necessário para desenvolver, onde executam, resolvem problemas e garante a entrega ? Qualidade e testes avaliam se o Sistema criado corresponde à visão de negócio e qualidade trazidos pelo proprietário, para então disponibilizar o aplicativo.
+
+#### Etapas de Qualidade durante os desenvolvimentos
+Assumindo a premissa de que os desenvolvedores da XY Sistemas trabalham em formato Ágil, metodologia SCRUM, temos duas sugestões para melhorar a qualidade do que é produzido:
+Introduzir testes unitários da camada de aplicação HTML + JQuery utilizando o QUnit. Uma tarefa só pode ser passada do status “IN DEV” para o status “IN TEST” uma vez que o desenvolvedor tenha garantido a qualidade unitária dos desenvolvimentos feitos, garantindo a qualidade das regras de negócio. Idealmente, o time faria uso de TDD, metodologia de desenvolvimento orientada a testes (vide seção Métodos).
+Introduzir testes integrados para os webservices e camada de aplicação. Esses testes serão conduzidos pela figura do QA (ver a seção Papeis) com base em requisitos e condições de aceite (ver seção Métodos). As ferramentas utilizadas para isso serão o Postman (para validação de webservices) e Planos de Teste (para a validação da camada de Aplicação); esses planos de teste são embasados na metodologia BDD (vide seção Métodos).
+      
