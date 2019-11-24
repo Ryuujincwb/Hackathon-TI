@@ -28,6 +28,6 @@ Postman: para poder testar as APIs e WebServices
 Python: pytest e dostring, que permitirão testes unitários automatizados, testando a lógica do Sistema.
 
 ##Processos
-##Desenvolvimento Ágil
+Desenvolvimento Ágil
 Planejamento ? Sprint (2 semanas) ? Dailies ? Revisão ? Retrospectiva.
 O proprietário do produto tem a visão do produto e traz requisites baseados no negócio e qualidade ? Desenvolvedores estimam a complexidade do trabalho e deliimitam o tempo necessário para desenvolver, onde executam, resolvem problemas e garante a entrega ? Qualidade e testes avaliam se o Sistema criado corresponde à visão de negócio e qualidade trazidos pelo proprietário, para então disponibilizar o aplicativo.
