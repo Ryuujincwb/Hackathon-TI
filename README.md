@@ -19,10 +19,10 @@ A empresa XY Sistemas desenvolve sistemas de gestão integrada (ERPs). Nos último
 4. A XY Sistemas contratará ao menos um profissional de Quality Assurance para cada uma das _squads_.
 
 ### Papéis:
-* Agile Master: pessoa responsável por atuar como facilitador do Scrum, removendo quaisquer obstáculos que sejam levantados pela equipe durante as dailies.
-* Product Owner: pessoa responsável por definir os itens que serão tratados pelo time e os prioriza nas reuniões de planejamento (Planning)
-* Desenvolvedores: pessoas responsáveis por executar o desenvolvimento, resolver problemas e garantir a entrega;
-* Testers (QAs): pessoa responsável por garantir que os requisitos foram atendidos e que o padrão de qualidade do que foi desenvolvido está dentro do esperado.
+* *Agile Master*: pessoa responsável por atuar como facilitador do Scrum, removendo quaisquer obstáculos que sejam levantados pela equipe durante as dailies.
+* *Product Owner*: pessoa responsável por definir os itens que serão tratados pelo time e os prioriza nas reuniões de planejamento (Planning)
+* *Desenvolvedores*: pessoas responsáveis por executar o desenvolvimento, resolver problemas e garantir a entrega;
+* *Testers (QAs)*: pessoa responsável por garantir que os requisitos foram atendidos e que o padrão de qualidade do que foi desenvolvido está dentro do esperado.
 
 ### Pontos de Melhoria
 #### Monitoria de Infra
