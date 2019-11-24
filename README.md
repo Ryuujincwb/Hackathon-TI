@@ -24,7 +24,7 @@ Todos os artefatos desenvolvidos devem ser disponibilizados para análise técnica
 * Desenvolvedores: pessoas responsáveis por executar o desenvolvimento, resolver problemas e garantir a entrega;
 * Testers (QAs): pessoa responsável por garantir que os requisitos foram atendidos e que o padrão de qualidade do que foi desenvolvido está dentro do esperado.
 
-### Processos
+### Pontos de melhoria
 #### Monitoria de Infra
 Adicionar as seguintes monitorias de disponibilidade de infra:
 Disponibilidade do servidor Apache Tomcat: pings a cada 10s no endereço da aplicação
