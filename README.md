@@ -25,11 +25,12 @@ A empresa XY Sistemas desenvolve sistemas de gestão integrada (ERPs). Nos último
 * *Testers (QAs)*: pessoa responsável por garantir que os requisitos foram atendidos e que o padrão de qualidade do que foi desenvolvido está dentro do esperado.
 
 ### Pontos de Melhoria
-#### Monitoria de Infra
+#### Monitoria de Infraestrutura
 Adicionar as seguintes monitorias de disponibilidade de infraestrutura:
-*Disponibilidade do servidor Apache Tomcat: pings a cada 10s no endereço da aplicação
-*Disponibilidade do servidor MSSQL Server: query simples submetida a cada 10s.
-*Estabelecer parâmetros de qualidade para essas monitorias, como percentual de tempo disponível por tempo absoluto, por exemplo, que indicará a consistência dos serviços prestados.
+
+* Disponibilidade do servidor Apache Tomcat: pings a cada 10s no endereço da aplicação
+* Disponibilidade do servidor MSSQL Server: query simples submetida a cada 10s.
+* Estabelecer parâmetros de qualidade para essas monitorias, como percentual de tempo disponível por tempo absoluto, por exemplo, que indicará a consistência dos serviços prestados.
 
 #### Etapas de Qualidade durante os desenvolvimentos
 Assumindo a premissa de que os desenvolvedores da XY Sistemas trabalham em formato Ágil, metodologia SCRUM, temos duas sugestões para melhorar a qualidade do que é produzido:
@@ -40,8 +41,8 @@ Uma tarefa só pode ser passada do status “In Dev” para o status “In Test” uma ve
 
 ### Ferramentas
 1. *Google Docs*: por sua eficácia em fazer alterações simultâneas em uma única plataforma, dessa forma melhorando a comunicação com todos os times. Será utilizado para documentar os desenvolvimentos (requisitos, regras de negócio, critérios de aceite e solicitações de alterações) em documentos padronizados.
-  1. Documento de Solicitação de Mudança: será gerada pela área demandante (ou cliente) especificando a alteração que julga necessária para o sistema ou módulo em questão, bem como os critérios de aceite.
-  2. Documentos de Aceite: serão assinados pelas áreas demandantes (ou clientes), reconhecendo que a _feature_ solicitada está entregue como esperado, atendendo aos requisitos e respeitando os critérios de aceite.
+ 1. Documento de Solicitação de Mudança: será gerada pela área demandante (ou cliente) especificando a alteração que julga necessária para o sistema ou módulo em questão, bem como os critérios de aceite.
+ 2. Documentos de Aceite: serão assinados pelas áreas demandantes (ou clientes), reconhecendo que a _feature_ solicitada está entregue como esperado, atendendo aos requisitos e respeitando os critérios de aceite.
 
 2. *Postman*: ferramenta que permite testes automatizados de APIs e Webservices. A automatização de testes básicos de webservices garante uma maior uniformidade nos testes (e nos desenvolvimentos) e maior qualidade sem aumento significativo do tempo de teste.
 
