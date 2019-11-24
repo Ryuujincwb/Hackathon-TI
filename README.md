@@ -19,10 +19,10 @@ A empresa XY Sistemas desenvolve sistemas de gestão integrada (ERPs). Nos último
 4. A XY Sistemas contratará ao menos um profissional de Quality Assurance para cada uma das _squads_.
 
 ### Papéis:
-* *Agile Master*: pessoa responsável por atuar como facilitador do Scrum, removendo quaisquer obstáculos que sejam levantados pela equipe durante as dailies.
-* *Product Owner*: pessoa responsável por definir os itens que serão tratados pelo time e os prioriza nas reuniões de planejamento (Planning)
-* *Desenvolvedores*: pessoas responsáveis por executar o desenvolvimento, resolver problemas e garantir a entrega;
-* *Testers (QAs)*: pessoa responsável por garantir que os requisitos foram atendidos e que o padrão de qualidade do que foi desenvolvido está dentro do esperado.
+* **Agile Master**: pessoa responsável por atuar como facilitador do Scrum, removendo quaisquer obstáculos que sejam levantados pela equipe durante as dailies.
+* **Product Owner**: pessoa responsável por definir os itens que serão tratados pelo time e os prioriza nas reuniões de planejamento (Planning)
+* **Desenvolvedores**: pessoas responsáveis por executar o desenvolvimento, resolver problemas e garantir a entrega;
+* **Testers (QAs)**: pessoa responsável por garantir que os requisitos foram atendidos e que o padrão de qualidade do que foi desenvolvido está dentro do esperado.
 
 ### Pontos de Melhoria
 #### Monitoria de Infraestrutura
@@ -40,15 +40,15 @@ Uma tarefa só pode ser passada do status “In Dev” para o status “In Test” uma ve
 2. Introduzir testes integrados para os webservices e camada de aplicação. Esses testes serão conduzidos pela figura do QA (ver a seção Papeis) com base em requisitos e condições de aceite (ver seção Métodos). As ferramentas utilizadas para isso serão o Postman (para validação de webservices) e Planos de Teste (para a validação da camada de Aplicação); esses planos de teste são embasados na metodologia BDD (vide seção Métodos).
 
 ### Ferramentas
-1. *Google Docs*: por sua eficácia em fazer alterações simultâneas em uma única plataforma, dessa forma melhorando a comunicação com todos os times. Será utilizado para documentar os desenvolvimentos (requisitos, regras de negócio, critérios de aceite e solicitações de alterações) em documentos padronizados.
+1. **Google Docs**: por sua eficácia em fazer alterações simultâneas em uma única plataforma, dessa forma melhorando a comunicação com todos os times. Será utilizado para documentar os desenvolvimentos (requisitos, regras de negócio, critérios de aceite e solicitações de alterações) em documentos padronizados.
 	1. Documento de Solicitação de Mudança: será gerada pela área demandante (ou cliente) especificando a alteração que julga necessária para o sistema ou módulo em questão, bem como os critérios de aceite.
 	2. Documentos de Aceite: serão assinados pelas áreas demandantes (ou clientes), reconhecendo que a _feature_ solicitada está entregue como esperado, atendendo aos requisitos e respeitando os critérios de aceite.
 
-2. *Postman*: ferramenta que permite testes automatizados de APIs e Webservices. A automatização de testes básicos de webservices garante uma maior uniformidade nos testes (e nos desenvolvimentos) e maior qualidade sem aumento significativo do tempo de teste.
+2. **Postman**: ferramenta que permite testes automatizados de APIs e Webservices. A automatização de testes básicos de webservices garante uma maior uniformidade nos testes (e nos desenvolvimentos) e maior qualidade sem aumento significativo do tempo de teste.
 
-3. *QUnit*: automação de testes unitários de código desenvolvido em JQuery. Permite testes de regras de negócio.
+3. **QUnit**: automação de testes unitários de código desenvolvido em JQuery. Permite testes de regras de negócio.
 
-4. *JIRA*: sistema de controle de tickets (bugs ou features) que servirá como estrutura de controle de trabalho em andamento
+4. **JIRA**: sistema de controle de tickets (bugs ou features) que servirá como estrutura de controle de trabalho em andamento
 
 ###  Método
 Utilizaremos dois métodos de trabalho complementares: o PDCA, como embasamento teórico de melhoria contínua do ERP da XY Sistemas, bem como do melhoramento contínuo do trabalho das equipes de desenvolvimento. Para praticarmos essa melhoria contínua, utilizaremos o método Scrum de desenvolvimento, separando as demandas em _sprints_ (de 2 a 4 semanas), que contém reuniões que atendem o nosso embasamento teórico: a reunião de _planning_ nos permite entender o que deve ser feito, as reuniões diárias (_dailies_) para acompanhamento das atividades dentro da _sprint_ e, ao final, as reuniões de checagem: _review_ e _retrospective_. Essas últimas servem para a avaliar a qualidade final do produto entregue e também a qualidade dos processos internos do time de desenvolvimento.
