@@ -57,6 +57,7 @@ Para pautar os desenvolvimentos e os testes, utilizaremos dois tipos de _framewo
 Todos os desenvolvimentos devem ser atendido em Sprints (de 2 a 4 semanas).
 Durante uma sprint um desenvolvimento passa pelos seguintes status:
 
+Em markdown: ![transicoes.jpeg]
 
 O que cada status representa:
 TO DO: tarefa está aguardando ser iniciada
