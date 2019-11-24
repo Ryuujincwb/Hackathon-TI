@@ -41,8 +41,8 @@ Uma tarefa só pode ser passada do status “In Dev” para o status “In Test” uma ve
 
 ### Ferramentas
 1. *Google Docs*: por sua eficácia em fazer alterações simultâneas em uma única plataforma, dessa forma melhorando a comunicação com todos os times. Será utilizado para documentar os desenvolvimentos (requisitos, regras de negócio, critérios de aceite e solicitações de alterações) em documentos padronizados.
- 1. Documento de Solicitação de Mudança: será gerada pela área demandante (ou cliente) especificando a alteração que julga necessária para o sistema ou módulo em questão, bem como os critérios de aceite.
- 2. Documentos de Aceite: serão assinados pelas áreas demandantes (ou clientes), reconhecendo que a _feature_ solicitada está entregue como esperado, atendendo aos requisitos e respeitando os critérios de aceite.
+	1. Documento de Solicitação de Mudança: será gerada pela área demandante (ou cliente) especificando a alteração que julga necessária para o sistema ou módulo em questão, bem como os critérios de aceite.
+	2. Documentos de Aceite: serão assinados pelas áreas demandantes (ou clientes), reconhecendo que a _feature_ solicitada está entregue como esperado, atendendo aos requisitos e respeitando os critérios de aceite.
 
 2. *Postman*: ferramenta que permite testes automatizados de APIs e Webservices. A automatização de testes básicos de webservices garante uma maior uniformidade nos testes (e nos desenvolvimentos) e maior qualidade sem aumento significativo do tempo de teste.
 
