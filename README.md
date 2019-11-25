@@ -75,9 +75,13 @@ O que cada status representa:
 
 **TO DO**: tarefa está aguardando ser iniciada
 
- **In Dev**: tarefa está em desenvolvimento 
+
+**In Dev**: tarefa está em desenvolvimento 
+
 **In Test**: tarefa foi desenvolvida e está em teste 
+
 **Waiting Homolog**: a tarefa foi aprovada nos testes do time e está aguardando a aprovação do cliente 
+
 **Done**: tarefa concluída.
 
 Caso a tarefa seja reprovada nas etapas de teste ou de homologação, esta será devolvida para o desenvolvedor e o status volta a ser “In Dev”.
