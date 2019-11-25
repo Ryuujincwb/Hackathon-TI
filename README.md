@@ -33,11 +33,13 @@ Adicionar as seguintes monitorias de disponibilidade de infraestrutura:
 * Estabelecer parâmetros de qualidade para essas monitorias, como percentual de tempo disponível por tempo absoluto, por exemplo, que indicará a consistência dos serviços prestados.
 
 #### Etapas de Qualidade durante os desenvolvimentos
-Assumindo a premissa de que os desenvolvedores da XY Sistemas trabalham em formato Ágil, metodologia SCRUM, temos duas sugestões para melhorar a qualidade do que é produzido:
+Assumindo a premissa de que os desenvolvedores da XY Sistemas trabalham em formato Ágil, metodologia SCRUM, temos algumas sugestões para melhorar a qualidade do que é produzido baseado nas fases de teste:
 
 1. Introduzir testes unitários da camada de aplicação HTML + JQuery utilizando o QUnit. 
 Uma tarefa só pode ser passada do status “In Dev” para o status “In Test” uma vez que o desenvolvedor tenha garantido a qualidade unitária dos desenvolvimentos feitos, garantindo a qualidade das regras de negócio. Idealmente, o time faria uso de TDD, metodologia de desenvolvimento orientada a testes (vide seção Métodos).
 2. Introduzir testes integrados para os webservices e camada de aplicação. Esses testes serão conduzidos pela figura do QA (ver a seção Papeis) com base em requisitos e condições de aceite (ver seção Métodos). As ferramentas utilizadas para isso serão o Postman (para validação de webservices) e Planos de Teste (para a validação da camada de Aplicação); esses planos de teste são embasados na metodologia BDD (vide seção Métodos).
+3.Introduzir testes de Sistema, sendo a última chance do time de projeto em verificar o requisitos e validar o funcionamento das soluções, e ter certeza que tudo está alinhado com as necessidades do centro da aplicação.
+4. Introduzir o teste de regressão, sendo o último teste que visa apresentar uma versão teste do sistema para uso de alguns usuários, dessa forma tendo a certeza  que todos os tipos de testes possam ser feitos e nenhum erro surja inviabilizando o lançamento do sistema.
 
 ### Ferramentas
 1. **Google Docs**: por sua eficácia em fazer alterações simultâneas em uma única plataforma, dessa forma melhorando a comunicação com todos os times. Será utilizado para documentar os desenvolvimentos (requisitos, regras de negócio, critérios de aceite e solicitações de alterações) em documentos padronizados.
@@ -49,6 +51,10 @@ Uma tarefa só pode ser passada do status “In Dev” para o status “In Test” uma ve
 3. **QUnit**: automação de testes unitários de código desenvolvido em JQuery. Permite testes de regras de negócio.
 
 4. **JIRA**: sistema de controle de tickets (bugs ou features) que servirá como estrutura de controle de trabalho em andamento
+
+5. **Test Case**: etapa de controle onde cada passo do sistema é testado e se encontrada falha é repassado para um membro do time encontrar solução.
+
+6. **Test Scenarios**: Etapa de controle onde um conjunto de testes é testado e se encontrada falha é repassado para um membro do time encontrar solução.
 
 ###  Método
 Utilizaremos dois métodos de trabalho complementares: o PDCA, como embasamento teórico de melhoria contínua do ERP da XY Sistemas, bem como do melhoramento contínuo do trabalho das equipes de desenvolvimento. Para praticarmos essa melhoria contínua, utilizaremos o método Scrum de desenvolvimento, separando as demandas em _sprints_ (de 2 a 4 semanas), que contém reuniões que atendem o nosso embasamento teórico: a reunião de _planning_ nos permite entender o que deve ser feito, as reuniões diárias (_dailies_) para acompanhamento das atividades dentro da _sprint_ e, ao final, as reuniões de checagem: _review_ e _retrospective_. Essas últimas servem para a avaliar a qualidade final do produto entregue e também a qualidade dos processos internos do time de desenvolvimento.
